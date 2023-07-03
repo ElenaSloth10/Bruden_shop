@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600&family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Bruden</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+                <div class="container">
+                    <div class="header-block">
+                        <div class="container-inner">
+                            <div class="header-inner">
+                                <div class="header-inner__logo">
+                                    <a class="header-inner__logo-link" href="./index.html">
+                                        <img class="header-inner__logo-img" src="./images/logo.png" alt="bruden logo">
+                                    </a>
+                                </div>
+                                <nav class="header-inner__nav">
+                                    <ul class="header-inner__list">
+                                        <li class="header-inner__list-item">
+                                            <a class="header-inner__list-link" href="./index.html">Home</a>
+                                        </li>
+                                        <li class="header-inner__list-item">
+                                            <a class="header-inner__list-link header-inner__list-link--active" href="./shop.html">Shop</a>
+                                        </li>
+                                        <li class="header-inner__list-item">
+                                            <a class="header-inner__list-link" href="./blog.html">Blog</a>
+                                        </li>
+                                        <li class="header-inner__list-item">
+                                            <a class="header-inner__list-link" href="./about.html">About Us</a>
+                                        </li>
+                                        <li class="header-inner__list-item">
+                                            <a class="header-inner__list-link" href="./contact.html">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <div class="header-inner__list-icon">
+                                    <span></span>
+                                </div>
+                                <div class="header-inner__info">
+                                    <div class="header-inner__info-instagram">
+                                        <a class="header-inner__info-instagram-link" href="#">
+                                            <img class="header-inner__info-instagram-img" src="./images/sprite.svg#instagram-icon" alt="instagram-icon">
+                                        </a>
+                                    </div>
+                                    <div class="header-inner__info-search">
+                                        <form class="header-inner__info-form">
+                                            <input class="header-inner__info-input" type="text" placeholder="Search">
+                                            <button class="header-inner__info-button" type="button">
+                                                <img class="header-inner__info-search-img" src="./images/sprite.svg#search-icon" alt="search-icon">
+                                            </button>
+                                        </form> 
+                                    </div>
+                                    <div class="header-inner__info-account">
+                                        <a class="header-inner__info-account-link" href="#">
+                                            <img class="header-inner__info-account-img" src="./images/sprite.svg#account-icon" alt="account-icon">
+                                        </a>
+                                    </div>
+                                    <div class="header-inner__info-basket">
+                                        <a class="header-inner__info-basket-link" href="#">
+                                            <img class="header-inner__info-basket-img" src="./images/sprite.svg#basket-icon" alt="basket-icon">
+                                        </a>
+                                    </div>
+                                    <div class="header-inner__info-message">
+                                        <a class="header-inner__info-message-link" href="#">0</a>
+                                    </div>
+                                    <div class="header-inner__info-price">
+                                        <a class="header-inner__info-price-link" href="#">$ <span class="header-inner__info-price-sum">0.00</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </header>
+
+        <main class="main">
+            <div class="container">
+                <div class="container-inner">
+                    <section class="shop">
+                        <h1 class="shop__title">Shop</h1>
+                        <div class="shop__container">
+                            <aside class="shop__aside">
+                                <p class="shop__aside-filter">Filter by price</p>
+                                <div class="shop__aside-line-filter">
+                                    <div class="shop__aside-line-atart" style="left: 0px"></div>
+                                    <div class="shop__aside-line-end" style="right: 0px"></div>
+                                </div>
+                                <a class="shop__aside-link" href="#">filter</a>
+                                <p class="shop__aside-price">Price $<span class="shop__aside-price-start">30</span> - $<span class="shop__aside-price-end">110</span></p>
+                                <p class="shop__aside-tags">Product tags</p>
+                                <div class="shop__aside-tags-container">
+                                    <a class="shop__aside-tags-link" href="#">Bags</a>
+                                    <a class="shop__aside-tags-link" href="#">Sunglasses</a>
+                                    <a class="shop__aside-tags-link" href="#">Belts</a>
+                                </div>
+                            </aside>
+                            <div class="shop__content">
+                                <div class="shop__content-sort">
+                                    <div class="shop__content-sort-info">
+                                        <img class="shop__content-sort-image" src="./images/sprite.svg#sort-icon-1" alt="#sort-icon-1">
+                                        <img class="shop__content-sort-image" src="./images/sprite.svg#sort-icon-2" alt="#sort-icon-2">
+                                        <p class="shop__content-sort-text">Showing 1–12 of 15 results</p>
+                                    </div>
+                                    <select class="shop__content-select" name="select">
+                                        <option class="shop__content-select-option" selected disabled value="default">Default sorting</option>
+                                        <option class="shop__content-select-option" value="bags">Bags</option>
+                                        <option class="shop__content-select-option" value="sunglasses">Sunglasses</option>
+                                        <option class="shop__content-select-option" value="belts">Belts</option>
+                                    </select>
+                                </div>
+                                <div class="shop__cards">
+                                    <div class="shop__card">
+                                        <div class="shop__card-img">
+                                            <img class="shop__card-image" src="./images/shop-img1.webp" alt="shop-img1">
+                                            <div class="shop__card-img-icon">
+                                                <div class="shop__card-icon-up">
+                                                    <div class="shop__card-icon-heard">
+                                                        <img class="shop__card-icon-heard-image" src="./images/sprite.svg#heard" alt="heard-icon">
+                                                    </div>
+                                                    <div class="shop__card-icon-eye">
+                                                        <img class="shop__card-icon-eye-image" src="./images/sprite.svg#eye" alt="eye-icon">
+                                                    </div>
+                                                </div>
+                                                <div class="shop__card-icon-basket">
+                                                    <img class="shop__card-icon-basket-image" src="./images/sprite.svg#basket-icon" alt="basket-icon">
+                                                    <a class="shop__card-icon-basket-link" href="#">
+                                                        <p class="shop__card-icon-basket-text" >Add to cart</p>
+                                                        <img class="shop__card-icon-basket-white-image" src="./images/sprite.svg#basket-white-icon" alt="basket-icon">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="shop__card-title" href="#">Bruden's Backpack</a>
+                                        <div class="shop__card-star">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                        </div>
+                                        <p class="shop__card-price">C$ <span class="shop__card-price-num">99.99</span></p>
+                                    </div>
+                                    <div class="shop__card">
+                                        <div class="shop__card-img">
+                                            <img class="shop__card-image" src="./images/shop-img2.webp" alt="shop-img2">
+                                            <div class="shop__card-img-icon">
+                                                <div class="shop__card-icon-up">
+                                                    <div class="shop__card-icon-heard">
+                                                        <img class="shop__card-icon-heard-image" src="./images/sprite.svg#heard" alt="heard-icon">
+                                                    </div>
+                                                    <div class="shop__card-icon-eye">
+                                                        <img class="shop__card-icon-eye-image" src="./images/sprite.svg#eye" alt="eye-icon">
+                                                    </div>
+                                                </div>
+                                                <div class="shop__card-icon-basket">
+                                                    <img class="shop__card-icon-basket-image" src="./images/sprite.svg#basket-icon" alt="basket-icon">
+                                                    <a class="shop__card-icon-basket-link" href="#">
+                                                        <p class="shop__card-icon-basket-text" >Add to cart</p>
+                                                        <img class="shop__card-icon-basket-white-image" src="./images/sprite.svg#basket-white-icon" alt="basket-icon">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="shop__card-title" href="#">Bruden's Backpack</a>
+                                        <div class="shop__card-star">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                        </div>
+                                        <p class="shop__card-price">C$ <span class="shop__card-price-num">66.49</span></p>
+                                    </div>
+                                    <div class="shop__card">
+                                        <div class="shop__card-img">
+                                            <img class="shop__card-image" src="./images/shop-img3.webp" alt="shop-img3">
+                                            <div class="shop__card-img-icon">
+                                                <div class="shop__card-icon-up">
+                                                    <div class="shop__card-icon-heard">
+                                                        <img class="shop__card-icon-heard-image" src="./images/sprite.svg#heard" alt="heard-icon">
+                                                    </div>
+                                                    <div class="shop__card-icon-eye">
+                                                        <img class="shop__card-icon-eye-image" src="./images/sprite.svg#eye" alt="eye-icon">
+                                                    </div>
+                                                </div>
+                                                <div class="shop__card-icon-basket">
+                                                    <img class="shop__card-icon-basket-image" src="./images/sprite.svg#basket-icon" alt="basket-icon">
+                                                    <a class="shop__card-icon-basket-link" href="#">
+                                                        <p class="shop__card-icon-basket-text" >Add to cart</p>
+                                                        <img class="shop__card-icon-basket-white-image" src="./images/sprite.svg#basket-white-icon" alt="basket-icon">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="shop__card-title" href="#">Bruden Belt</a>
+                                        <div class="shop__card-star">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                        </div>
+                                        <p class="shop__card-price">C$ <span class="shop__card-price-num">24.49</span></p>
+                                    </div>
+                                    <div class="shop__card">
+                                        <div class="shop__card-img">
+                                            <img class="shop__card-image" src="./images/shop-img4.webp" alt="shop-img4">
+                                            <div class="shop__card-img-icon">
+                                                <div class="shop__card-icon-up">
+                                                    <div class="shop__card-icon-heard">
+                                                        <img class="shop__card-icon-heard-image" src="./images/sprite.svg#heard" alt="heard-icon">
+                                                    </div>
+                                                    <div class="shop__card-icon-eye">
+                                                        <img class="shop__card-icon-eye-image" src="./images/sprite.svg#eye" alt="eye-icon">
+                                                    </div>
+                                                </div>
+                                                <div class="shop__card-icon-basket">
+                                                    <img class="shop__card-icon-basket-image" src="./images/sprite.svg#basket-icon" alt="basket-icon">
+                                                    <a class="shop__card-icon-basket-link" href="#">
+                                                        <p class="shop__card-icon-basket-text" >Add to cart</p>
+                                                        <img class="shop__card-icon-basket-white-image" src="./images/sprite.svg#basket-white-icon" alt="basket-icon">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="shop__card-title" href="#">Sweet Pink Bruden Backpack</a>
+                                        <div class="shop__card-star">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                        </div>
+                                        <p class="shop__card-price">C$ <span class="shop__card-price-num">99.99</span></p>
+                                    </div>
+                                    <div class="shop__card">
+                                        <div class="shop__card-img">
+                                            <img class="shop__card-image" src="./images/shop-img5.webp" alt="shop-img5">
+                                            <div class="shop__card-img-icon">
+                                                <div class="shop__card-icon-up">
+                                                    <div class="shop__card-icon-heard">
+                                                        <img class="shop__card-icon-heard-image" src="./images/sprite.svg#heard" alt="heard-icon">
+                                                    </div>
+                                                    <div class="shop__card-icon-eye">
+                                                        <img class="shop__card-icon-eye-image" src="./images/sprite.svg#eye" alt="eye-icon">
+                                                    </div>
+                                                </div>
+                                                <div class="shop__card-icon-basket">
+                                                    <img class="shop__card-icon-basket-image" src="./images/sprite.svg#basket-icon" alt="basket-icon">
+                                                    <a class="shop__card-icon-basket-link" href="#">
+                                                        <p class="shop__card-icon-basket-text" >Add to cart</p>
+                                                        <img class="shop__card-icon-basket-white-image" src="./images/sprite.svg#basket-white-icon" alt="basket-icon">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="shop__card-title" href="#">MTL</a>
+                                        <div class="shop__card-star">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                        </div>
+                                        <p class="shop__card-price">C$ <span class="shop__card-price-num">49.99</span></p>
+                                    </div>
+                                    <div class="shop__card">
+                                        <div class="shop__card-img">
+                                            <img class="shop__card-image" src="./images/shop-img6.webp" alt="shop-img6">
+                                            <div class="shop__card-img-icon">
+                                                <div class="shop__card-icon-up">
+                                                    <div class="shop__card-icon-heard">
+                                                        <img class="shop__card-icon-heard-image" src="./images/sprite.svg#heard" alt="heard-icon">
+                                                    </div>
+                                                    <div class="shop__card-icon-eye">
+                                                        <img class="shop__card-icon-eye-image" src="./images/sprite.svg#eye" alt="eye-icon">
+                                                    </div>
+                                                </div>
+                                                <div class="shop__card-icon-basket">
+                                                    <img class="shop__card-icon-basket-image" src="./images/sprite.svg#basket-icon" alt="basket-icon">
+                                                    <a class="shop__card-icon-basket-link" href="#">
+                                                        <p class="shop__card-icon-basket-text" >Add to cart</p>
+                                                        <img class="shop__card-icon-basket-white-image" src="./images/sprite.svg#basket-white-icon" alt="basket-icon">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="shop__card-title" href="#">LA</a>
+                                        <div class="shop__card-star">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                            <img class="shop__card-star-img" src="./images/sprite.svg#star" alt="star-icon">
+                                        </div>
+                                        <p class="shop__card-price">C$ <span class="shop__card-price-num">35.00</span></p>
+                                    </div>
+
+                                </div>
+                                <div class="shop__pagination">
+                                    <a class="shop__pagination-arrow shop__pagination-arrow--hide" href="#">
+                                        <img class="shop__pagination-arrow-left" src="./images/sprite.svg#shop-arrow-left" alt="shop-arrow-left">
+                                    </a>
+                                    <ul class="shop__pagination-list">
+                                        <li class="shop__pagination-list-item">
+                                            <a class="shop__pagination-page shop__pagination-page--active" href="#">1</a>
+                                        </li>
+                                        <li class="shop__pagination-list-item">
+                                            <a class="shop__pagination-page" href="#">2</a>
+                                        </li>
+                                    </ul>
+                                    <a class="shop__pagination-arrow" href="#">
+                                        <img class="shop__pagination-arrow-right" src="./images/sprite.svg#shop-arrow-right" alt="shop-arrow-right">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section-products">
+                        <div class="container">
+                            <div class="container-inner">
+                                <div class="section-products__title">
+                                    <h3 class="section__title-text">Special products</h3>
+                                </div>
+                                <div class="section-products__info">
+                                    <p class="section-products__info-text">Register now to get updates on promotions </p>
+                                    <form class="section-products__form">
+                                        <input class="section-products__input" type="text">
+                                        <input class="section-products__input-button" type="button" value="subscribe">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-block">
+                    <div class="container-inner">
+                        <div class="footer-inner">
+                                <ul class="footer-inner__list">
+                                    <li class="footer-inner__list-logo">
+                                        <a class="footer-inner__logo-link" href="#">
+                                            <img class="footer-inner__logo-img" src="./images/logo.png" alt="bruden logo">
+                                        </a>
+                                    </li>
+                                    <li class="footer-inner__list-item">
+                                        <div class="footer-inner__list-instagram-link">
+                                            <a class="footer-inner__instagram-link-icon" href="#">
+                                                <img class="footer-inner__instagram-img" src="./images/sprite.svg#instagram-icon" alt="instagram-icon">
+                                            </a>
+                                        </div>
+                                        <a class="footer-inner__instagram-link" href="https://www.instagram.com/@brudenmtl">@brudenmtl</a>
+                                    </li>
+                                    <li class="footer-inner__list-item">©2022 by Bruden Mode. Proudly created with</li>
+                                </ul>
+
+                                <ul class="footer-inner__list">
+                                    <li class="footer-inner__list-title">
+                                        <a class="footer-inner__list-title-link" href="#">Shop</a>
+                                    </li>
+                                    <li class="footer-inner__list-item">
+                                        <a class="footer-inner__list-item-link" href="#">Bags</a>
+                                        
+                                    </li>
+                                    <li class="footer-inner__list-item">
+                                        <a class="footer-inner__list-item-link" href="#">Belts</a>
+                                    </li>
+                                    <li class="footer-inner__list-item">
+                                        <a class="footer-inner__list-item-link" href="#">Sunglasses</a>
+                                    </li>
+                                </ul>
+
+                                <ul class="footer-inner__list">
+                                    <li class="footer-inner__list-title">
+                                        <a class="footer-inner__list-title-link" href="#">Account</a>
+                                    </li>
+                                    <li class="footer-inner__list-item">
+                                        <a class="footer-inner__list-item-link" href="#">Orders</a>
+                                        
+                                    </li>
+                                    <li class="footer-inner__list-item">
+                                        <a class="footer-inner__list-item-link" href="#">Checkout</a>
+                                    </li>
+                                    <li class="footer-inner__list-item">
+                                        <a class="footer-inner__list-item-link" href="#">My Account</a>
+                                    </li>
+                                    <li class="footer-inner__list-item">
+                                        <a class="footer-inner__list-item-link" href="#">Account Details</a>
+                                    </li>
+                                </ul>
+
+                                <ul class="footer-inner__list">
+                                    <li class="footer-inner__list-title">
+                                        <a class="footer-inner__list-title-link" href="#">Information</a>
+                                    </li>
+                                    <li class="footer-inner__list-item">
+                                        <a class="footer-inner__list-item-link" href="#">FAQ’s</a>
+                                        
+                                    </li>
+                                    <li class="footer-inner__list-item">
+                                        <a class="footer-inner__list-item-link" href="#">Privacy Policy</a>
+                                    </li>
+                                    <li class="footer-inner__list-item">
+                                        <a class="footer-inner__list-item-link" href="#">Return policy</a>
+                                    </li>
+                                    <li class="footer-inner__list-item">
+                                        <a class="footer-inner__list-item-link" href="#">Shipping Policy</a>
+                                    </li>
+                                </ul>
+
+                                <ul class="footer-inner__list">
+                                    <li class="footer-inner__list-title">
+                                        <a class="footer-inner__list-title-link" href="#">Contacts</a>
+                                    </li>
+                                    <li class="footer-inner__list-item">
+                                        <a class="footer-inner__list-item-link" href="mailto:email@mail.com">email@mail.com</a>
+                                        
+                                    </li>
+                                    <li class="footer-inner__list-item">
+                                        <a class="footer-inner__list-item-link" href="tel:10000000000">+1-000-000-0000</a>
+                                    </li>
+                                    <li class="footer-inner__list-item">
+                                        <address class="footer-inner__list-item-link">Bld, Street, town, ZIP Code</address>
+                                    </li>
+                                </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="./js/main.min.js"></script>
+</body>
+</html>
