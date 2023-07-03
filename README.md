@@ -11,3 +11,5 @@ The work used:
 - BEM methodology;
 - Swiper;
 - SVG-sprite.
+
+Inside the All-working-gulp-files branch there is a Bruden folder, which contains all the working files of gulp.
